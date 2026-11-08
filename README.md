@@ -91,3 +91,25 @@ This project adheres to standard Git branching and commit conventions:
   2. `feat: implement projects section`
   3. `style: improve responsive portfolio design`
   4. `docs: update project documentation`
+
+
+---
+
+## 🤝 Collaboration Log
+
+This repository documents collaborative development workflows, pair-programming practices, and Git attribution:
+
+### 👥 Contributors & Roles
+
+| Contributor | GitHub Handle | Email | Role & Responsibilities |
+|---|---|---|---|
+| **Prasanna Karagar** | [@prasannakaragar](https://github.com/prasannakaragar) | `prasannakaragar6@gmail.com` | Lead Developer & Implementer: Portfolio architecture, Projects section, responsive CSS, interactive scripts |
+| **Prasanna Karagar (Student Account)** | [@prasanna-k-2006](https://github.com/prasanna-k-2006) | `226846720+prasanna-k-2006@users.noreply.github.com` | Repository Owner & Reviewer: Branch management, pull request review & merge, `greet()` collaboration |
+
+### 📝 Collaboration History & Activity Log
+
+| Date | Activity | Details | Attribution Method |
+|---|---|---|---|
+| 2026-11-08 | Portfolio Setup & Projects Section | Implemented student portfolio layout, projects cards, responsive styling, and GitHub Pages compatibility. | Pull Request #1 (`add-projects-section`) |
+| 2026-11-08 | UI Enhancements & SEO | Added floating Back-to-Top button, SVG favicon, and Open Graph metadata tags. | Pull Request #2 (`feature/portfolio-enhancements`) |
+| 2026-11-08 | `greet()` Function Collaboration | Implemented `greet(name)` function in `script.js` with welcome message and environment guards. | Git `Co-authored-by` commit trailer |
