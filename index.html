@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prasanna Karagar | Student Portfolio - R25EQ059</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-bracket">&lt;</span>PK<span class="logo-bracket">/&gt;</span>
+        <span class="logo-srn">R25EQ059</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home / Hero Section -->
+    <section class="section hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-badge">Student Portfolio</div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Prasanna Karagar</span>
+        </h1>
+        <p class="hero-subtitle">
+          Second-year <strong>Information Science Engineering</strong> student at <strong>REVA University</strong>
+        </p>
+        <p class="hero-meta">
+          <span class="meta-item"><strong>SRN:</strong> R25EQ059</span>
+          <span class="meta-dot">&bull;</span>
+          <span class="meta-item"><strong>Year:</strong> 2nd Year (ISE)</span>
+          <span class="meta-dot">&bull;</span>
+          <span class="meta-item"><strong>Institution:</strong> REVA University</span>
+        </p>
+        <div class="hero-cta">
+          <a href="#about" class="btn btn-primary">About Me</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card intro-card">
+            <h3 class="card-title">Introduction</h3>
+            <p>
+              I am an enthusiastic undergraduate student pursuing a Bachelor's degree in
+              <strong>Information Science Engineering</strong> at <strong>REVA University</strong>.
+              Passionate about building scalable software systems, modern web platforms, and exploring
+              core computer science concepts.
+            </p>
+            <p>
+              My academic journey is focused on combining strong theoretical foundations in data structures,
+              algorithms, and operating systems with hands-on development using modern frameworks and tools.
+            </p>
+          </div>
+
+          <div class="about-card interests-card">
+            <h3 class="card-title">Technical Interests</h3>
+            <ul class="interests-list">
+              <li>
+                <span class="interest-icon">💻</span>
+                <div>
+                  <strong>Full-Stack Web Development:</strong> Building responsive, accessible, and high-performance applications.
+                </div>
+              </li>
+              <li>
+                <span class="interest-icon">⚙️</span>
+                <div>
+                  <strong>System Design & Backend Architecture:</strong> Designing RESTful APIs, microservices, and database schemas.
+                </div>
+              </li>
+              <li>
+                <span class="interest-icon">🗄️</span>
+                <div>
+                  <strong>Database Management Systems:</strong> Working with relational (MySQL, PostgreSQL) and NoSQL (MongoDB) databases.
+                </div>
+              </li>
+              <li>
+                <span class="interest-icon">🌿</span>
+                <div>
+                  <strong>Version Control & DevOps:</strong> Streamlining collaborative workflows with Git, GitHub Actions, and CI/CD pipelines.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: UniRank -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-type-tag">Full-Stack Application</span>
+              <div class="project-links">
+                <a href="https://github.com/prasannakaragar/UniRank" target="_blank" rel="noopener noreferrer" class="icon-link" title="View Source Code on GitHub" aria-label="UniRank GitHub repository">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">UniRank - Online Examination & Assessment Platform</h3>
+            <p class="project-description">
+              A high-performance web platform for secure academic examinations and coding assessments. Features deterministic test randomization, server-authoritative timers, pre-exam environment readiness checks, and real-time proctoring telemetry.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">Next.js 14</span>
+              <span class="tech-badge">React 18</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Express</span>
+              <span class="tech-badge">PostgreSQL</span>
+              <span class="tech-badge">Socket.IO</span>
+              <span class="tech-badge">Monaco Editor</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/prasannakaragar/UniRank" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <span>View Repository</span>
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Exam Portal -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-type-tag">Backend & Proctoring System</span>
+              <div class="project-links">
+                <a href="https://github.com/prasannakaragar/Exam-Portal" target="_blank" rel="noopener noreferrer" class="icon-link" title="View Source Code on GitHub" aria-label="Exam-Portal GitHub repository">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Exam Portal & Integrity Safeguards</h3>
+            <p class="project-description">
+              Scalable examination portal with role-based access control (Student, Faculty, Admin). Implements anti-cheat algorithms, plagiarism detection pipelines, and fault-tolerant submission handling.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Express</span>
+              <span class="tech-badge">PostgreSQL</span>
+              <span class="tech-badge">JWT Auth</span>
+              <span class="tech-badge">Socket.IO</span>
+              <span class="tech-badge">Docker</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/prasannakaragar/Exam-Portal" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <span>View Repository</span>
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Student Academic Portfolio (R25EQ059) -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-type-tag">Academic Portfolio</span>
+              <div class="project-links">
+                <a href="https://github.com/prasanna-k-2006/R25EQ059" target="_blank" rel="noopener noreferrer" class="icon-link" title="View Source Code on GitHub" aria-label="R25EQ059 GitHub repository">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Student Portfolio & Git Repository Showcase</h3>
+            <p class="project-description">
+              A responsive, modern student portfolio website built to exhibit academic achievements, technical capabilities, and Git version control practices. Configured for automated static hosting via GitHub Pages.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">Git & GitHub</span>
+              <span class="tech-badge">GitHub Pages</span>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/prasanna-k-2006/R25EQ059" target="_blank" rel="noopener noreferrer" class="project-btn">
+                <span>View Repository</span>
+                <span class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Expertise</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title">Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-badge">C</span>
+              <span class="skill-badge">C++</span>
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">Frontend Development</h3>
+            <div class="skill-tags">
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">CSS3</span>
+              <span class="skill-badge">React</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">Backend Development</h3>
+            <div class="skill-tags">
+              <span class="skill-badge">Node.js</span>
+              <span class="skill-badge">Express</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">Databases</h3>
+            <div class="skill-tags">
+              <span class="skill-badge">MongoDB</span>
+              <span class="skill-badge">MySQL</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">Tools & Version Control</h3>
+            <div class="skill-tags">
+              <span class="skill-badge">Git</span>
+              <span class="skill-badge">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Connect</span>
+          <h2 class="section-title">Contact</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <p class="contact-subtitle">
+            Feel free to reach out for collaborations, project discussions, or academic inquiries.
+          </p>
+          <div class="contact-cards">
+            <a href="https://github.com/prasanna-k-2006" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon">🐙</div>
+              <div class="contact-info">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/prasanna-k-2006</span>
+              </div>
+            </a>
+
+            <a href="mailto:prasannakaragar6@gmail.com" class="contact-card">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-info">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">prasannakaragar6@gmail.com</span>
+              </div>
+            </a>
+
+            <div class="contact-card static">
+              <div class="contact-icon">📍</div>
+              <div class="contact-info">
+                <span class="contact-label">College</span>
+                <span class="contact-value">REVA University, Bangalore</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Prasanna Karagar &bull; SRN: R25EQ059 &bull; REVA University</p>
+      <p class="footer-subtext">Information Science Engineering &bull; Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
