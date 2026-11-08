@@ -1,4 +1,19 @@
-document.addEventListener('DOMContentLoaded', () => {
+/**
+ * Greets the visitor with a welcome message and outputs it to the console.
+ * @param {string} [name='Visitor'] - Name of the visitor.
+ * @returns {string} The greeting message.
+ */
+function greet(name = 'Visitor') {
+  const message = `Hello, ${name}! Welcome to Prasanna Karagar's portfolio (SRN: R25EQ059).`;
+  console.log(message);
+  return message;
+}
+
+if (typeof document !== 'undefined') {
+  document.addEventListener('DOMContentLoaded', () => {
+      // Welcome greeting
+    greet();
+
   const navToggle = document.getElementById('navToggle');
   const navMenu = document.getElementById('navMenu');
   const navLinks = document.querySelectorAll('.nav-link');
@@ -79,3 +94,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+}
+
+// Export for testing environments
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { greet };
+}
